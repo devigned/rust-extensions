@@ -50,7 +50,7 @@ required-features = ["async"]
 [dependencies]
 async-trait = { version = "0.1.48", optional = true }
 protobuf = "3.1"
-ttrpc = "0.8"
+ttrpc = { git = "https://github.com/jsturtevant/ttrpc-rust", branch = "fix-mac-os-bug"}
 
 [build-dependencies]
 ttrpc-codegen = "0.4"
